@@ -2,8 +2,8 @@
 
 #Readme
 # To use this program with specman
-# 1. Make sure that the IP address of the server matches the one in the specman cfg file (should be @ port 1235)-- this is different from the prologix IP address
-# 2. Make sure the prologix adapter IP address is correct (in this script). You can find the IP address by using the netfinder.exe program if the adapter is connected. Port should always be 1234
+# 1. Make sure that the IP address of the server matches the one in the specman cfg file (should be @ port 1235)
+# 2. Make sure the 'COM' port for the USB-GPIB adapter is set correctly. This can be found the the windows device manager.
 # 3. Run this script before activating the 6675A device in specman device configuration, also make sure that the console reads 'ready to accept TCP connection from Specman' before activating the device-- this will take ~30 seconds or more.
 # 4. After the server (this script) is ready, reload the configuration file (need to do this or it wont work) and activate the device on specman and it should be green-- now it is ready to be used
 # 5. Sometime this script throws an error when you try to start it-- this is most likely because the prologix adapter was not yet ready-- try to start it again and it should work
