@@ -1,3 +1,5 @@
+#This is the python code to interface specman to an agilent 6675A power supply connected to a prologix USB-GPIB converter via the TCP device in Specman
+
 #Readme
 # To use this program with specman
 # 1. Make sure that the IP address of the server matches the one in the specman cfg file (should be @ port 1235)-- this is different from the prologix IP address
